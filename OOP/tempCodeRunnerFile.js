@@ -1,1 +1,2 @@
-account.deposit(750)
+        // this.#cookRice();
+        // this.#prepareStew();
