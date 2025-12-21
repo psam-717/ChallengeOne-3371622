@@ -16,7 +16,12 @@ const users = [
 
 const businessOwners = users.filter(businessOwner => businessOwner.isBusinessOwner);
 const nonBusinessOwners = users.filter(nonBusinessOwner => !nonBusinessOwner.isBusinessOwner);
+console.log(businessOwners)
+console.log(nonBusinessOwners)
 
+
+const firstThreeUsers = users.filter(firstThree => (firstThree.id < 4))
+console.log('First three users ', firstThreeUsers)
 
 // odd squared
 const numberArr = [1,2,3,4,5,6,7];
