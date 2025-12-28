@@ -29,3 +29,4 @@ const oddSquared = numberArr
                     .filter(oddNum => oddNum % 2 == 1)
                     .map(squared => squared ** 2);
 console.log(oddSquared);
+console.log("Done")
